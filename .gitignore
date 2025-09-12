@@ -1,0 +1,155 @@
+# Neural Network Adventure RPG - Git Ignore File
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+navenv/
+venv/
+ENV/
+env/
+.venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Game-specific
+saves/
+screenshots/
+logs/
+*.log
+
+# Build artifacts
+build/
+dist/
+*.dmg
+*.exe
+*.app
+*.deb
+*.rpm
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# OS-specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Development
+debug_*.py
+test_*.py
+temp_*.py
+scratch/
+experiments/
+
+# Documentation builds
+docs/_build/
+docs/build/
+
+# Local configuration
+.env
+.env.local
+config.local.py
+settings.local.py
+
+# PyGame
+pygame.log
+
+# Audio cache
+*.wav.cache
+*.mp3.cache
+
+# Neural network models (if any)
+*.pkl
+*.model
+*.weights
+
+# Data files (if large)
+data/large_datasets/
+*.csv
+*.json.bak
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Lock files
+poetry.lock
+Pipfile.lock
+
+# Test builds and distribution packages
+Neural_Network_Adventure_TEST/
+Neural_Network_Adventure_TEST.zip
+*_TEST/
+*_TEST.zip
+
+# Build scripts (moved to scripts/)
+build_*.sh
+build_*.bat
+neural_network_adventure.spec
+
+# Development utilities
+create_test_build.py
+SHARE_WITH_FRIENDS.md
+
+# IDE specific
+.vscode/settings.json

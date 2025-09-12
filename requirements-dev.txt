@@ -1,0 +1,68 @@
+# Neural Network Adventure RPG - Development Dependencies
+
+# Runtime dependencies (included from requirements.txt)
+-r requirements.txt
+
+# Testing Framework
+pytest>=7.4.3
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+pytest-xdist>=3.3.1          # Parallel test execution
+pytest-benchmark>=4.0.0      # Performance benchmarking
+
+# Code Quality Tools
+black>=23.9.1                # Code formatting
+isort>=5.12.0                # Import sorting
+flake8>=6.1.0                # Linting
+mypy>=1.6.1                  # Type checking
+pre-commit>=3.5.0            # Git hooks for code quality
+
+# Documentation Tools
+sphinx>=7.2.6               # Documentation generation
+sphinx-rtd-theme>=1.3.0     # ReadTheDocs theme
+sphinx-autodoc-typehints>=1.24.0  # Type hint documentation
+
+# Development Utilities
+ipython>=8.16.1             # Enhanced Python shell
+jupyter>=1.0.0              # Notebook support for experiments
+matplotlib>=3.7.2           # Already in requirements.txt but needed for dev
+
+# Profiling and Performance
+cProfile                     # Built-in profiler
+memory-profiler>=0.61.0     # Memory usage profiling
+line-profiler>=4.1.1        # Line-by-line profiling
+
+# Build and Distribution
+build>=1.0.3                # Modern Python build tool
+twine>=4.0.2                # Package uploading
+wheel>=0.41.2               # Wheel building
+
+# Game Development Tools
+pygame-ce>=2.4.0            # Community edition with extra features (optional)
+
+# Additional Testing Tools
+hypothesis>=6.88.1          # Property-based testing
+factory-boy>=3.3.0          # Test data generation
+freezegun>=1.2.2            # Time mocking for tests
+
+# Code Analysis
+bandit>=1.7.5               # Security linting
+safety>=2.3.5               # Dependency vulnerability checking
+vulture>=2.10                # Dead code detection
+
+# Development Workflow
+tox>=4.11.3                 # Testing across Python versions
+nox>=2023.4.22              # Task automation
+invoke>=2.2.0               # Task runner
+
+# Git and Version Control
+gitpython>=3.1.37           # Git integration
+bump2version>=1.0.1         # Version bumping
+
+# Debugging Tools
+pdb++>=0.10.3               # Enhanced debugger
+icecream>=2.1.3             # Debug printing
+rich>=13.6.0                # Rich text and beautiful formatting
+
+# Optional: Game Asset Tools
+Pillow>=10.0.1              # Image processing (for asset optimization)
