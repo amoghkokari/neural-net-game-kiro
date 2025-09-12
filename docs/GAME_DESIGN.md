@@ -1,7 +1,7 @@
 # Neural Network Adventure RPG - Game Design Document
 
 ## Core Concept
-An addictive RPG that teaches neural networks through interactive storytelling, boss battles, and hands-on coding challenges. Players embark on a hero's journey with their AI companion "Tensor" to master neural networks from basic concepts to building GPT from scratch.
+An educational RPG that teaches neural network fundamentals through interactive challenges and real-time visualization. Players learn core concepts including neurons, weights, bias, activation functions, and forward propagation through hands-on gameplay.
 
 ## Protagonist & Story Arc
 
@@ -11,123 +11,60 @@ An addictive RPG that teaches neural networks through interactive storytelling, 
 - **Goal**: Restore balance to the digital realm by mastering neural networks
 - **Character Growth**: From novice to Neural Network Grandmaster
 
-### Story Structure
-1. **Foundation Arc** - Understanding the building blocks
-2. **Building Arc** - Constructing networks from scratch  
-3. **Training Arc** - Real-world application and data handling
-4. **Advanced Arc** - Specialized architectures (RNN, CNN, LSTM, GRU)
-5. **Transformer Arc** - Modern AI with attention mechanisms
-6. **Final Boss** - GPT Overlord battle
+### Learning Structure
+1. **Foundation Concepts** - Understanding the building blocks (neurons, weights, bias)
+2. **Activation Functions** - Non-linear transformations and their effects
+3. **Network Building** - Constructing basic networks and forward propagation
+4. **Future Expansion** - Additional concepts to be added in future versions
 
 ## Level Progression & Bosses
 
-### Foundation Arc
+### Current Levels (Implemented)
 1. **Neuron Academy** 🧠
-   - **Boss**: Weight Master
    - **Concept**: Neurons, weights, basic computation
    - **Visualization**: Interactive neuron with adjustable parameters
    - **Challenge**: Experiment with weights to understand their impact
 
 2. **Bias Battlefield** ⚖️
-   - **Boss**: Bias Baron  
    - **Concept**: Bias and activation thresholds
    - **Visualization**: Threshold shifting demonstration
    - **Challenge**: Solve scenarios requiring specific bias values
 
 3. **Activation Peaks** 🏔️
-   - **Boss**: Sigmoid Sorcerer
    - **Concept**: Activation functions (ReLU, Sigmoid, Tanh)
    - **Visualization**: Interactive function graphs with live input
    - **Challenge**: Choose optimal activation for different scenarios
 
 4. **Chain Rule Caverns** ⛓️
-   - **Boss**: Derivative Dragon
-   - **Concept**: Chain rule and derivatives for backpropagation
-   - **Visualization**: Animated derivative chain visualization
+   - **Concept**: Chain rule and derivatives
+   - **Visualization**: Derivative calculation demonstration
    - **Challenge**: Calculate gradients through multi-step chains
 
-### Building Arc
 5. **Perceptron Plains** 🌾
-   - **Boss**: Linear Separatrix
    - **Concept**: Building complete perceptrons
    - **Visualization**: Decision boundary visualization
    - **Challenge**: Implement perceptron from scratch
 
 6. **Forward Pass Forest** 🌲
-   - **Boss**: Flow Guardian
    - **Concept**: Forward propagation through networks
    - **Visualization**: Animated data flow through layers
    - **Challenge**: Build multi-layer forward pass
 
+### Future Levels (Planned)
 7. **Backprop Badlands** 🏜️
-   - **Boss**: Gradient Golem
    - **Concept**: Backpropagation algorithm
    - **Visualization**: Gradient flow animation
    - **Challenge**: Implement backpropagation from scratch
 
-### Training Arc
 8. **Training Grounds** 🏟️
-   - **Boss**: Overfitting Ogre
    - **Concept**: Train/Test/Validation splits
    - **Visualization**: Learning curves and overfitting detection
    - **Challenge**: Prevent overfitting with real datasets
 
-9. **Data Dungeons** 🏰
-   - **Boss**: Noise Nightmare
-   - **Concept**: Real dataset training (MNIST, CIFAR-10)
-   - **Visualization**: Training progress and accuracy metrics
-   - **Challenge**: Achieve target accuracy on benchmark datasets
-
-### Advanced Arc
-10. **RNN Realm** 🔄
-    - **Boss**: Memory Monarch
-    - **Concept**: Recurrent neural networks
-    - **Visualization**: Sequence processing animation
-    - **Challenge**: Build RNN for sequence prediction
-
-11. **CNN Castle** 🏰
-    - **Boss**: Feature Phantom
-    - **Concept**: Convolutional neural networks
-    - **Visualization**: Convolution and pooling operations
-    - **Challenge**: Build CNN for image classification
-
-12. **LSTM Labyrinth** 🌀
-    - **Boss**: Vanishing Gradient Vampire
-    - **Concept**: Long Short-Term Memory networks
-    - **Visualization**: Gate operations and memory flow
-    - **Challenge**: Solve vanishing gradient problem
-
-13. **GRU Gardens** 🌺
-    - **Boss**: Gate Keeper
-    - **Concept**: Gated Recurrent Units
-    - **Visualization**: Simplified gating mechanism
-    - **Challenge**: Compare GRU vs LSTM performance
-
-### Transformer Arc
-14. **Word2Vec Wasteland** 📝
-    - **Boss**: Semantic Spider
-    - **Concept**: Word embeddings and vector spaces
-    - **Visualization**: Word similarity in vector space
-    - **Challenge**: Build word embeddings from scratch
-
-15. **Attention Archipelago** 👁️
-    - **Boss**: Focus Fiend
-    - **Concept**: Attention mechanisms
-    - **Visualization**: Attention weight heatmaps
-    - **Challenge**: Implement attention from scratch
-
-16. **Transformer Temple** 🏛️
-    - **Boss**: Multi-Head Hydra
-    - **Concept**: Complete transformer architecture
-    - **Visualization**: Multi-head attention visualization
-    - **Challenge**: Build full transformer
-
-### Final Boss
-17. **GPT Citadel** 👑
-    - **Boss**: GPT Overlord
-    - **Concept**: Generative language models
-    - **Visualization**: Text generation process
-    - **Challenge**: Build GPT from scratch and generate coherent text
+9. **Advanced Networks** 🚀
+   - **Concept**: RNN, CNN, LSTM architectures
+   - **Visualization**: Specialized network operations
+   - **Challenge**: Build advanced network types
 
 ## Addictive Game Mechanics
 

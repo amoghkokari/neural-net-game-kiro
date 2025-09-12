@@ -512,7 +512,7 @@ class PerceptronCompleteChallenge(BaseChallenge):
         else:
             verdict_text = "Case needs more work. Train your scanner better and try again."
             
-        self.dialogue_box.set_dialogue(verdict_text, "Judge")
+        self.dialogue_box.set_dialogue(verdict_text, "Case Evaluator")
         
     def _start_boss_fight(self):
         """Start the epic boss fight against Linear Separatrix"""
