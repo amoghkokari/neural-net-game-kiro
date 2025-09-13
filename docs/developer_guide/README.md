@@ -596,6 +596,7 @@ PYINSTALLER_OPTIONS = {
     'icon': 'assets/icon.ico',
     'add_data': [
         ('src', 'src'),
+        ('assets', 'assets'),
     ],
     'hidden_imports': [
         'pygame',

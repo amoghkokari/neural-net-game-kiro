@@ -105,10 +105,11 @@ The executable includes all required dependencies:
 
 ### Advanced Configuration
 
-#### Custom Icons
-Icons can be added to build configuration:
-- `icon.ico` for Windows builds
-- `icon.icns` for macOS builds
+#### Game Icon
+The game uses nna.png as the source icon:
+- `assets/icon.ico` for Windows builds
+- `assets/icon.icns.png` for macOS builds
+- Multiple sizes generated automatically
 
 #### Build Options
 Edit `neural_network_adventure.spec` to customize:

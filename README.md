@@ -1,3 +1,7 @@
+<div align="center">
+
+![Neural Network Adventure RPG](nna.png)
+
 # 🧠🎮 Neural Network Adventure RPG
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -8,9 +12,9 @@
 
 > **Learn neural networks through epic RPG adventures!** 🚀
 
-An educational RPG game that teaches neural network concepts through interactive challenges and visualizations. Learn fundamental neural network concepts including neurons, weights, bias, activation functions, and forward propagation through hands-on gameplay.
+</div>
 
-![Game Screenshot](docs/images/gameplay-preview.png)
+An educational RPG game that teaches neural network concepts through interactive challenges and visualizations. Learn fundamental neural network concepts including neurons, weights, bias, activation functions, and forward propagation through hands-on gameplay.
 
 ## 🎯 What You'll Learn
 
