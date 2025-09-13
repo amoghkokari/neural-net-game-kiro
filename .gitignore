@@ -138,9 +138,6 @@ Pipfile.lock
 
 # Test builds and distribution packages
 Neural_Network_Adventure_TEST/
-Neural_Network_Adventure_TEST.zip
-*_TEST/
-*_TEST.zip
 
 # Build scripts (moved to scripts/)
 build_*.sh
