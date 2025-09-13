@@ -113,7 +113,7 @@ neural-network-adventure/
 ├── 📁 tests/                     # 🧪 Comprehensive test suite  
 ├── 📁 docs/                      # 📚 Documentation
 ├── 📁 scripts/                   # 🔧 Development tools
-├── 📁 assets/                    # 🎨 Game assets
+
 └── 📁 config/                    # ⚙️ Configuration files
 ```
 

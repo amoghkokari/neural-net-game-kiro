@@ -99,16 +99,16 @@ The executable includes all required dependencies:
 - **Windows**: Click "More info" → "Run anyway" in Windows Defender
 - **Linux**: Make executable with `chmod +x`
 
-#### Missing Assets
-- Ensure all game assets are in the `src/` directory
+#### Missing Source Files
+- Ensure all game source files are in the `src/` directory
 - Check that `requirements.txt` is present
 
 ### Advanced Configuration
 
 #### Custom Icons
-Place platform-specific icons in `assets/`:
-- `icon.ico` for Windows
-- `icon.icns` for macOS
+Icons can be added to build configuration:
+- `icon.ico` for Windows builds
+- `icon.icns` for macOS builds
 
 #### Build Options
 Edit `neural_network_adventure.spec` to customize:

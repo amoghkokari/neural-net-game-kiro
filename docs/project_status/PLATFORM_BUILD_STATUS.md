@@ -76,7 +76,7 @@ open "dist/neural-network-adventure-macos-silicon/Neural Network Adventure.app"
 neural-network-adventure-{platform}/
 ├── NeuralNetworkAdventure[.exe/.app]  # Main executable
 ├── README.txt                         # User instructions
-└── [platform-specific files]          # Dependencies and assets
+└── [platform-specific files]          # Dependencies and libraries
 ```
 
 ### README.txt Features:
@@ -154,7 +154,7 @@ cd neural-network-adventure
 ### PyInstaller Configuration
 - **Spec File**: `neural_network_adventure.spec`
 - **Hidden Imports**: All game dependencies included
-- **Data Files**: Source code and assets bundled
+- **Data Files**: Complete source code bundled
 - **Platform Optimization**: OS-specific optimizations applied
 
 ### Build Process Flow

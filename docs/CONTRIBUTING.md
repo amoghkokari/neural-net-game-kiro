@@ -21,7 +21,7 @@ This project adheres to a [Code of Conduct](CODE_OF_CONDUCT.md). By participatin
 - 🐛 **Bug Reports**: Help us identify and fix issues
 - 💡 **Feature Requests**: Suggest new educational content or game features
 - 📝 **Documentation**: Improve guides, tutorials, and API docs
-- 🎨 **Assets**: Create sprites, sounds, or visual improvements
+- 🎨 **Visual Improvements**: Enhance UI design and visual effects
 - 🧪 **Testing**: Write tests or test on different platforms
 - 💻 **Code**: Implement new features or fix bugs
 - 🎓 **Educational Content**: Design new neural network challenges
@@ -359,26 +359,26 @@ class TestNewFeature:
 - **Mock External Dependencies**: Don't test pygame, file system, etc.
 - **Edge Cases**: Test boundary conditions and error cases
 
-## 🎨 Asset Guidelines
+## 🎨 Visual Design Guidelines
 
-### Visual Assets
-- **Style Consistency**: Match existing art style
-- **Resolution**: Support high-DPI displays
-- **File Formats**: PNG for images, SVG for scalable graphics
-- **Optimization**: Compress images for smaller file sizes
+### UI/UX Design
+- **Style Consistency**: Follow existing design patterns
+- **Color Scheme**: Use established color constants
+- **Typography**: Consistent font usage throughout
+- **Responsive Design**: Support different screen sizes
 
-### Audio Assets
-- **Format**: WAV or OGG for compatibility
-- **Quality**: 44.1kHz, 16-bit minimum
-- **Length**: Keep sound effects short (< 2 seconds)
-- **Volume**: Normalize audio levels
+### Visual Effects
+- **Performance**: Maintain 60 FPS with all effects
+- **Accessibility**: Ensure good contrast and readability
+- **Animation**: Smooth transitions and feedback
+- **Modern Design**: Clean, professional appearance
 
 ## 📊 Performance Guidelines
 
 ### Code Performance
 - **60 FPS Target**: Maintain smooth gameplay
 - **Memory Efficiency**: Minimize object creation in game loop
-- **Asset Loading**: Load assets once, cache for reuse
+- **Resource Management**: Efficient memory usage and caching
 - **Profiling**: Use cProfile for performance analysis
 
 ### Optimization Techniques

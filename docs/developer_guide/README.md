@@ -112,7 +112,7 @@ neural-network-adventure/
 ├── tests/                # Test suite
 ├── scripts/              # Development tools
 ├── docs/                 # Documentation
-├── assets/               # Game assets
+
 └── config/               # Configuration files
 ```
 
@@ -596,7 +596,6 @@ PYINSTALLER_OPTIONS = {
     'icon': 'assets/icon.ico',
     'add_data': [
         ('src', 'src'),
-        ('assets', 'assets'),
     ],
     'hidden_imports': [
         'pygame',
